@@ -20,6 +20,7 @@ public class ChildrenGameMain {
 	}
 
 	/**
+	 * This apps main() method 
 	 * @param args
 	 */
 	public static void main(String[] args) {

@@ -26,6 +26,11 @@ public class CircleGame implements Game {
 	/* (non-Javadoc)
 	 * @see childrensGame.Game#game()
 	 */
+	/* Calulate circle game rules
+	 * @Param  : 
+	 * return winner player
+	 * childrensGame.Game#game()
+	*/
 	public Integer gameRules() {
 		
 		GamePlayers players = new GamePlayersImpl();		
@@ -37,7 +42,11 @@ public class CircleGame implements Game {
 		return getWinner(numPlayers, countout);
 	}
 	
-	
+
+	/* Populate Winner from the list of the players
+	 * @Param  : Players list, countout number
+	 * return winner player
+	*/
 	
 	private int getWinner(List <Integer> players, int countout) {
 		 int count = 0;
