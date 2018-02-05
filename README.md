@@ -11,7 +11,6 @@ immediately next to the eliminated one.
 * Children are so removed from the circle one by one. The winner is the child
 left standing last.
 
-
 ### Prerequisites
 
 Java 1.8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
